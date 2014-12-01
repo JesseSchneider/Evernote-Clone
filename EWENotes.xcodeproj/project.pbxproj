@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B711B0B19DF884B00271A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B0A19DF884B00271A52 /* main.m */; };
+		3B711B0E19DF884B00271A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B0D19DF884B00271A52 /* AppDelegate.m */; };
+		3B711B1119DF884B00271A52 /* EWENotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B0F19DF884B00271A52 /* EWENotes.xcdatamodeld */; };
+		3B711B1919DF884B00271A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B711B1819DF884B00271A52 /* Images.xcassets */; };
+		3B711B2819DF884B00271A52 /* EWENotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B2719DF884B00271A52 /* EWENotesTests.m */; };
+		3B711B3519DF8A1D00271A52 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B3419DF8A1D00271A52 /* MainViewController.m */; };
+		3B711B3719DF8B9700271A52 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B711B3619DF8B9700271A52 /* Default-568h@2x.png */; };
+		3B711B4219E0FCD200271A52 /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B4119E0FCD200271A52 /* Notes.m */; };
+		3B711B4519E0FCD300271A52 /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B4419E0FCD300271A52 /* Section.m */; };
+		3B711B4819E100EA00271A52 /* NSString+StringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B4719E100EA00271A52 /* NSString+StringUtilities.m */; };
+		3B711B4B19E3908000271A52 /* Datasource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B4A19E3908000271A52 /* Datasource.m */; };
+		3B711B4E19E4602A00271A52 /* UIApplication+EWEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B4D19E4602A00271A52 /* UIApplication+EWEAppDelegate.m */; };
+		3B711B4F19E4602A00271A52 /* UIApplication+EWEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B711B4D19E4602A00271A52 /* UIApplication+EWEAppDelegate.m */; };
+		3BEEEB9219E5F38F00FB4AD9 /* AddNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEEB9119E5F38F00FB4AD9 /* AddNoteView.m */; };
+		3BEEEB9519E63A1400FB4AD9 /* ViewNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEEB9419E63A1400FB4AD9 /* ViewNotesViewController.m */; };
+		3BEEEB9B19E64FB800FB4AD9 /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEEB9A19E64FB800FB4AD9 /* SearchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B711B2219DF884B00271A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B711AFD19DF884B00271A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B711B0419DF884B00271A52;
+			remoteInfo = EWENotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B711B0519DF884B00271A52 /* EWENotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWENotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B711B0919DF884B00271A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B711B0A19DF884B00271A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B711B0C19DF884B00271A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B711B0D19DF884B00271A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B711B1019DF884B00271A52 /* EWENotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EWENotes.xcdatamodel; sourceTree = "<group>"; };
+		3B711B1819DF884B00271A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B711B2119DF884B00271A52 /* EWENotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWENotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B711B2619DF884B00271A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B711B2719DF884B00271A52 /* EWENotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWENotesTests.m; sourceTree = "<group>"; };
+		3B711B3319DF8A1D00271A52 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3B711B3419DF8A1D00271A52 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3B711B3619DF8B9700271A52 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3B711B4019E0FCD200271A52 /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		3B711B4119E0FCD200271A52 /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
+		3B711B4319E0FCD300271A52 /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		3B711B4419E0FCD300271A52 /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		3B711B4619E100EA00271A52 /* NSString+StringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringUtilities.h"; sourceTree = "<group>"; };
+		3B711B4719E100EA00271A52 /* NSString+StringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringUtilities.m"; sourceTree = "<group>"; };
+		3B711B4919E3908000271A52 /* Datasource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datasource.h; sourceTree = "<group>"; };
+		3B711B4A19E3908000271A52 /* Datasource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datasource.m; sourceTree = "<group>"; };
+		3B711B4C19E4602A00271A52 /* UIApplication+EWEAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+EWEAppDelegate.h"; sourceTree = "<group>"; };
+		3B711B4D19E4602A00271A52 /* UIApplication+EWEAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+EWEAppDelegate.m"; sourceTree = "<group>"; };
+		3BEEEB9019E5F38F00FB4AD9 /* AddNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteView.h; sourceTree = "<group>"; };
+		3BEEEB9119E5F38F00FB4AD9 /* AddNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteView.m; sourceTree = "<group>"; };
+		3BEEEB9319E63A1400FB4AD9 /* ViewNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewNotesViewController.h; sourceTree = "<group>"; };
+		3BEEEB9419E63A1400FB4AD9 /* ViewNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewNotesViewController.m; sourceTree = "<group>"; };
+		3BEEEB9919E64FB800FB4AD9 /* SearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		3BEEEB9A19E64FB800FB4AD9 /* SearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B711B0219DF884B00271A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B711B1E19DF884B00271A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B711AFC19DF884B00271A52 = {
+			isa = PBXGroup;
+			children = (
+				3B711B3619DF8B9700271A52 /* Default-568h@2x.png */,
+				3B711B0719DF884B00271A52 /* EWENotes */,
+				3B711B2419DF884B00271A52 /* EWENotesTests */,
+				3B711B0619DF884B00271A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B711B0619DF884B00271A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B0519DF884B00271A52 /* EWENotes.app */,
+				3B711B2119DF884B00271A52 /* EWENotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B711B0719DF884B00271A52 /* EWENotes */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B0C19DF884B00271A52 /* AppDelegate.h */,
+				3B711B0D19DF884B00271A52 /* AppDelegate.m */,
+				3B711B3F19E0FC7B00271A52 /* Views */,
+				3B711B3E19E0FC6400271A52 /* Models */,
+				3B711B1819DF884B00271A52 /* Images.xcassets */,
+				3B711B4919E3908000271A52 /* Datasource.h */,
+				3B711B4A19E3908000271A52 /* Datasource.m */,
+				3B711B0F19DF884B00271A52 /* EWENotes.xcdatamodeld */,
+				3B711B0819DF884B00271A52 /* Supporting Files */,
+				3B711B4C19E4602A00271A52 /* UIApplication+EWEAppDelegate.h */,
+				3B711B4D19E4602A00271A52 /* UIApplication+EWEAppDelegate.m */,
+			);
+			path = EWENotes;
+			sourceTree = "<group>";
+		};
+		3B711B0819DF884B00271A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B4619E100EA00271A52 /* NSString+StringUtilities.h */,
+				3B711B4719E100EA00271A52 /* NSString+StringUtilities.m */,
+				3B711B0919DF884B00271A52 /* Info.plist */,
+				3B711B0A19DF884B00271A52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B711B2419DF884B00271A52 /* EWENotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B2719DF884B00271A52 /* EWENotesTests.m */,
+				3B711B2519DF884B00271A52 /* Supporting Files */,
+			);
+			path = EWENotesTests;
+			sourceTree = "<group>";
+		};
+		3B711B2519DF884B00271A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B2619DF884B00271A52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B711B3E19E0FC6400271A52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B4319E0FCD300271A52 /* Section.h */,
+				3B711B4419E0FCD300271A52 /* Section.m */,
+				3B711B4019E0FCD200271A52 /* Notes.h */,
+				3B711B4119E0FCD200271A52 /* Notes.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3B711B3F19E0FC7B00271A52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B711B3319DF8A1D00271A52 /* MainViewController.h */,
+				3B711B3419DF8A1D00271A52 /* MainViewController.m */,
+				3BEEEB9319E63A1400FB4AD9 /* ViewNotesViewController.h */,
+				3BEEEB9419E63A1400FB4AD9 /* ViewNotesViewController.m */,
+				3BEEEB9919E64FB800FB4AD9 /* SearchView.h */,
+				3BEEEB9A19E64FB800FB4AD9 /* SearchView.m */,
+				3BEEEB9019E5F38F00FB4AD9 /* AddNoteView.h */,
+				3BEEEB9119E5F38F00FB4AD9 /* AddNoteView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B711B0419DF884B00271A52 /* EWENotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B711B2B19DF884B00271A52 /* Build configuration list for PBXNativeTarget "EWENotes" */;
+			buildPhases = (
+				3B711B0119DF884B00271A52 /* Sources */,
+				3B711B0219DF884B00271A52 /* Frameworks */,
+				3B711B0319DF884B00271A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWENotes;
+			productName = EWENotes;
+			productReference = 3B711B0519DF884B00271A52 /* EWENotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B711B2019DF884B00271A52 /* EWENotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B711B2E19DF884B00271A52 /* Build configuration list for PBXNativeTarget "EWENotesTests" */;
+			buildPhases = (
+				3B711B1D19DF884B00271A52 /* Sources */,
+				3B711B1E19DF884B00271A52 /* Frameworks */,
+				3B711B1F19DF884B00271A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B711B2319DF884B00271A52 /* PBXTargetDependency */,
+			);
+			name = EWENotesTests;
+			productName = EWENotesTests;
+			productReference = 3B711B2119DF884B00271A52 /* EWENotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B711AFD19DF884B00271A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = EastoftheWestEnd;
+				TargetAttributes = {
+					3B711B0419DF884B00271A52 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3B711B2019DF884B00271A52 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3B711B0419DF884B00271A52;
+					};
+				};
+			};
+			buildConfigurationList = 3B711B0019DF884B00271A52 /* Build configuration list for PBXProject "EWENotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B711AFC19DF884B00271A52;
+			productRefGroup = 3B711B0619DF884B00271A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B711B0419DF884B00271A52 /* EWENotes */,
+				3B711B2019DF884B00271A52 /* EWENotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B711B0319DF884B00271A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B711B1919DF884B00271A52 /* Images.xcassets in Resources */,
+				3B711B3719DF8B9700271A52 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B711B1F19DF884B00271A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B711B0119DF884B00271A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B711B0E19DF884B00271A52 /* AppDelegate.m in Sources */,
+				3B711B4519E0FCD300271A52 /* Section.m in Sources */,
+				3B711B4B19E3908000271A52 /* Datasource.m in Sources */,
+				3B711B1119DF884B00271A52 /* EWENotes.xcdatamodeld in Sources */,
+				3BEEEB9219E5F38F00FB4AD9 /* AddNoteView.m in Sources */,
+				3B711B4819E100EA00271A52 /* NSString+StringUtilities.m in Sources */,
+				3B711B0B19DF884B00271A52 /* main.m in Sources */,
+				3B711B4E19E4602A00271A52 /* UIApplication+EWEAppDelegate.m in Sources */,
+				3B711B4219E0FCD200271A52 /* Notes.m in Sources */,
+				3B711B3519DF8A1D00271A52 /* MainViewController.m in Sources */,
+				3BEEEB9519E63A1400FB4AD9 /* ViewNotesViewController.m in Sources */,
+				3BEEEB9B19E64FB800FB4AD9 /* SearchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B711B1D19DF884B00271A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B711B2819DF884B00271A52 /* EWENotesTests.m in Sources */,
+				3B711B4F19E4602A00271A52 /* UIApplication+EWEAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B711B2319DF884B00271A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B711B0419DF884B00271A52 /* EWENotes */;
+			targetProxy = 3B711B2219DF884B00271A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B711B2919DF884B00271A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B711B2A19DF884B00271A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B711B2C19DF884B00271A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EWENotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B711B2D19DF884B00271A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EWENotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B711B2F19DF884B00271A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EWENotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWENotes.app/EWENotes";
+			};
+			name = Debug;
+		};
+		3B711B3019DF884B00271A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EWENotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWENotes.app/EWENotes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B711B0019DF884B00271A52 /* Build configuration list for PBXProject "EWENotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B711B2919DF884B00271A52 /* Debug */,
+				3B711B2A19DF884B00271A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B711B2B19DF884B00271A52 /* Build configuration list for PBXNativeTarget "EWENotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B711B2C19DF884B00271A52 /* Debug */,
+				3B711B2D19DF884B00271A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B711B2E19DF884B00271A52 /* Build configuration list for PBXNativeTarget "EWENotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B711B2F19DF884B00271A52 /* Debug */,
+				3B711B3019DF884B00271A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B711B0F19DF884B00271A52 /* EWENotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B711B1019DF884B00271A52 /* EWENotes.xcdatamodel */,
+			);
+			currentVersion = 3B711B1019DF884B00271A52 /* EWENotes.xcdatamodel */;
+			path = EWENotes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B711AFD19DF884B00271A52 /* Project object */;
+}
